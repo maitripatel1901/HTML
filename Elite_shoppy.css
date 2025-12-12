@@ -66,35 +66,89 @@ ul li a{
     
 
 }
-
-
-.img1
+.pic
 {
     display: flex;
     
 }
-
-.left 
+.box
 {
-    background-image: url("https://nurimetin.github.io/eliteshoppy.github.io/images/bottom1.jpg" );
-    margin-left: 190px;
-    margin-top: 50px;
+    display: flex;
+    height: 300px;
+    width: 600px;
+    background-image: url("https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg");
+    background-size: 100% 100%;
+    margin: 100px auto;
+    padding: 20px;
+    transition: 1s;
+}
+.border1
+{
+    border: 5px solid white;
     height: 250px;
-    padding: 100px;
-      
-    color: white;
-   
+    width:  530px;
+    transition: 1s;
+    opacity: 0;
+}
+.box:hover .border1{
+    opacity: 1;
+    transform: translate(20px);
 }
 
-.right 
-{
-    background-image: url("https://nurimetin.github.io/eliteshoppy.github.io/images/bottom2.jpg");
-    margin-left: 30px;
-    margin-top: 50px;
-    height: 250px;
-    padding: 100px;
-      
-    color: white;
-   
+.box:hover{
+    background-position: 20px;
 }
 
+.box1
+{
+   
+    height: 300px;
+    width: 600px;
+    background-image: url('https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom2.jpg');
+    background-size: 100% 100%;
+    margin: 100px auto;
+    padding: 20px;
+    transition: 1s;
+}
+.border
+{
+    border: 5px solid white;
+    height: 250px;
+    width:  530px;
+    transition: 1s;
+    opacity: 0;
+}
+.box1:hover .border{
+    opacity: 1;
+    transform: translate(20px);
+}
+
+.box1:hover{
+    background-position: 20px;
+}
+
+.main
+{
+    display: flex;
+}
+
+.green {
+    background-color: rgb(39,228,165);
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.main .green .right1
+{
+    background-color: azure;
+    margin-top: 80px;
+    padding: 10px;
+}
+.i1
+{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 50px;
+    gap: 120px;
+    font-size: 30px;
+}
